@@ -114,10 +114,11 @@ a.skip{
 
   
   /* Requirement 11 code here -- Do not remove this comment. */
-  .skip:focus  {
+  a.skip {
     position: absolute;
     left: 0;
     top: 20px;
+    bottom: inherit;
   }
   
 
@@ -128,8 +129,6 @@ a.skip{
     display: grid;
     grid-template-columns: 50px auto 500px auto 50px;
     grid-template-rows: 300px 300px 300px 300px;
-
-    row-gap: 30px;
   }
   
 
