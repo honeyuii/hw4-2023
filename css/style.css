@@ -117,7 +117,7 @@ a.skip{
     position: absolute;
     left: 0;
     top: 20px;
-  
+    bottom: inherit;
   }
   
 
