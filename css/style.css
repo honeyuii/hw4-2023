@@ -114,10 +114,9 @@ a.skip{
   
   /* Requirement 11 code here -- Do not remove this comment. */
   a.skip:focus{
-    position: absolute;
-    left: 0;
+    position: fixed;
     top: 20px;
-    bottom: inherit;
+    left: 0;
   }
   
 
