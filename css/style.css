@@ -27,7 +27,6 @@ a.skip{
   .container{
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
-    grid-template-rows: repeat(4, 354px);
     row-gap: 30px;
   }
 
@@ -50,7 +49,7 @@ a.skip{
   /* Requirement 5 code here -- Do not remove this comment. */
 
   .about , .clients, .method, .contact{
-    grid-column: 2 / span 1;
+    grid-column: 2;
   }
 
   /* Requirement 6 code here -- Do not remove this comment. */
@@ -126,8 +125,8 @@ a.skip{
 
   .container{
     display: grid;
-    grid-template-columns: 50px auto 500px auto 50px;;
-    grid-template-rows: repeat(4, 300px)
+    grid-template-columns: 50px auto 500px auto 50px;
+    grid-template-rows: 300px 300px 300px 300px
 
   }
   
